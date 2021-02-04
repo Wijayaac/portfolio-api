@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_collection_stacks",
+  "info": {
+    "name": "stack",
+    "icon": "terminal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tool": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

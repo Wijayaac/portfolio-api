@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_single_services",
+  "info": {
+    "name": "service",
+    "icon": "hand-holding-usd"
+  },
+  "options": {},
+  "attributes": {
+    "service": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

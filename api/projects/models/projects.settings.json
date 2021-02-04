@@ -56,14 +56,6 @@
       "type": "richtext",
       "required": true
     },
-    "created": {
-      "type": "date",
-      "required": true
-    },
-    "apps": {
-      "type": "richtext",
-      "required": true
-    },
     "github": {
       "type": "string",
       "required": true
@@ -87,6 +79,10 @@
     },
     "featured": {
       "type": "boolean",
+      "required": true
+    },
+    "website": {
+      "type": "string",
       "required": true
     }
   }

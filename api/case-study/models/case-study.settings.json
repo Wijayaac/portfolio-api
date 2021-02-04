@@ -44,10 +44,6 @@
       "component": "collection.stack",
       "required": true
     },
-    "create": {
-      "type": "date",
-      "required": true
-    },
     "publication": {
       "type": "string",
       "required": true
